@@ -1,16 +1,17 @@
 .container {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
+    justify-content: space-evenly;
 }
 
 .navigation {
     background-color: #f2f2f2;
     width: 200px;
     padding: 20px;
-    position: fixed; /* Mantiene el panel izquierdo fijo */
-    top: 0; /* Ajusta la posición vertical del panel izquierdo */
-    left: 0; /* Ajusta la posición horizontal del panel izquierdo */
-    bottom: 0; /* Ajusta la altura del panel izquierdo para que ocupe toda la ventana */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .navigation ul {
@@ -30,10 +31,10 @@
 
 .content {
     padding: 20px;
-    margin-left: 250px; /* Deja un espacio en el contenido para el panel izquierdo */
-     /* Agrega una barra de desplazamiento vertical al contenido */
+    margin-right: 100px;
+    margin-left: 350px;
     width: 100vh;
-    height: 100vh;
+    
 }
 
 li.active {
