@@ -1,7 +1,14 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+}
+
+.uno {
+    flex: 1;
 }
 
 header {
@@ -31,6 +38,8 @@ nav ul li a {
 section {
     padding: 20px;
 }
+
+
 
 footer {
     background-color: #333;
