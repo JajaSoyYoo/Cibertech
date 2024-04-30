@@ -1,17 +1,22 @@
+body{
+    background-color: rgb(52, 52, 52);
+}
 .container {
     display: flex;
     /*flex-direction: row;*/
     justify-content: space-evenly;
+    background-color: rgb(53, 53, 53);
 }
 
 .navigation {
-    background-color: #f2f2f2;
+    background-color: #7b7b7b;
     width: 200px;
     padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
+    
 }
 
 .navigation ul {
@@ -25,8 +30,12 @@
 }
 
 .navigation a {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px;
+    
 }
 
 .content {
@@ -34,6 +43,10 @@
     margin-right: 100px;
     margin-left: 350px;
     width: 100vh;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7b7b7b;
+    color: #ffffff;
     
 }
 
@@ -47,6 +60,6 @@ li.inicio {
 
 .navigation ul hr {
     border: none;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     margin: 10px 0;
 }
